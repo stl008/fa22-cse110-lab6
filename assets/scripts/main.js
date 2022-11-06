@@ -25,7 +25,7 @@ function getRecipesFromStorage() {
   //           header. It is possible in only a single line, but should
   //           be no more than a few lines.
   var arr = [];
-  let recipes = recipes = JSON.parse(localStorage.getItem("recipes"));
+  let recipes = JSON.parse(localStorage.getItem("recipes"));
   if (recipes == null)
   {
     return arr;
