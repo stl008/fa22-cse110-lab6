@@ -49,7 +49,7 @@ function addRecipesToDocument(recipes) {
   //            Append each element to <main>
   for(const recipe in recipes)
   {
-    let card = new RecipeCard();
+    let card = document.createElement("recipe-card");
     card.data = recipe;
     mainRef.append(card);
   }
